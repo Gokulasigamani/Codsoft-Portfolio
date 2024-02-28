@@ -1,0 +1,488 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  *{
+    margin: 0;
+  }
+
+  body
+  {
+    font-family: 'Poppins', sans-serif;
+   
+    
+  }
+
+
+  .mbg
+  {
+    background: rgb(99,232,237);
+    background: linear-gradient(227deg, rgba(99,232,237,0.9753151260504201) 25%, rgba(99,106,237,0.8828781512605042) 52%, rgba(255,191,101,0.7652310924369747) 75%);
+  }
+
+  .main-container
+  {
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(31, 30, 30);
+    transition: .5s;
+    width: 100%;
+
+  }
+
+  .fixed
+  {
+    border: 0.5px solid rgba(211, 211, 211, 0.189);
+    width: 25%;
+    height: 680px;
+    border-radius: 20px;
+    margin-top: 23px;
+    margin-left: 10px;
+    position: fixed;
+
+  }
+  
+  .details
+  {
+    display: flex;
+    margin: 30px 10px;
+    color: white;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .name
+  {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+   .skill
+   {
+    font-size: 12px;
+   }
+   .prof-box
+   {
+     width: 250px;
+     margin: 30px auto;
+   }
+   .prof
+   {
+      width: 100%;
+      border-radius: 20px;
+   }
+   .des{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.875);
+   }
+   .des-2
+   {
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.496);
+    text-align: center;
+    margin-top: 20px;
+   }
+   .social
+   {
+    
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+   }
+   
+   .logo-links:hover{
+
+    border: 1px solid green;
+    color: rgb(1, 145, 1);
+   }
+   .logo-links
+   {
+    background-color: transparent;
+    padding: 8px;
+    border:  .5px solid rgba(211, 211, 211, 0.39);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    text-decoration: none;
+   }
+   .hire-btn
+   {
+    display: flex;
+    color: black;
+    background-color:  rgba(109, 225, 109, 0.978);
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 40px auto;
+    transition: .5s
+    
+ }
+ .hire-logo
+ {
+    margin-top: 1.5px;
+ }
+
+ .hire-btn:hover
+ {
+    background-color:  rgb(2, 3, 2);
+    color: white;
+ }
+ .right
+ 
+ {
+    
+    width: 65%;
+    margin-left: 500px;
+    margin-top: 50px;
+ }
+ .nav
+ {
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+ }
+ .intro
+
+ {
+    border: 1px solid rgba(211, 211, 211, 0.463);
+    border-radius: 20px;
+    padding: 8px 22px;
+    font-weight: 600;
+    font-size: 12px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    
+ }
+ .menu
+ {
+    background-color: transparent;
+    padding: 12px;
+    border:  .5px solid rgba(211, 211, 211, 0.39);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .5s;
+ }
+ .sec-txt
+ {
+    margin-top: 50px;
+    color: white;
+    line-height: 60px;
+    font-size: 50px;
+    font-weight: 500;
+ }
+ .sec-txt span
+ {
+       color:  rgba(109, 225, 109, 0.978);
+       
+ }
+ .sec-subtxt
+ {
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 12px;
+    margin-top: 30px;
+    
+  }
+  .inner
+  {
+    width: 1000px;
+    display: flex;
+    gap: 400px;
+    
+    
+    
+  }
+  .rotate
+  {
+    width: 130px;
+    display: flex;
+    
+  }
+  .rotate-img
+  {
+    width: 100%;
+    animation-name: gokul;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 400px;
+    margin-top: 30px;
+  }
+  @keyframes gokul {
+
+    from{
+
+    }
+    to{
+        transform: rotate(360deg)
+    }
+    
+  }
+  .ratings
+  {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    
+  }
+  .one span{
+
+    color:  rgba(167, 109, 225, 0.978);
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+
+  }
+  .one{
+    color: rgba(156, 152, 152, 0.811);
+    font-size: 12px;
+  }
+  .side-links
+  {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border: 1px solid rgba(211, 211, 211, 0.363);
+    padding: 20px 10px;
+    gap: 15px;
+    height: 160px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 95px;
+  }
+  .side-logos
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: .5s
+  }
+  .side-logos:hover{
+
+
+    color: rgb(1, 145, 1);
+   }
+   .intro-two
+   {
+    border: 1px solid rgba(211, 211, 211, 0.463);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 100px;
+   }
+   .story-title
+   {
+    font-size: 30px;
+    line-height: 38px;
+    margin-top: 50px;
+    color: white;
+   }
+   .story-title span
+   {
+    color:  rgba(109, 225, 109, 0.978);
+   }
+   .p-width
+   {
+    width: 700px;
+   }
+   .story-desc
+   {
+    color: rgba(255, 255, 255, 0.626);
+    line-height: 28px;
+    font-size: 15px;
+   }
+   .intro-three
+   {
+    border: 1px solid rgba(211, 211, 211, 0.463);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 120px;
+   }
+   .res-title
+   {
+    color: white;
+    margin-top: 40px;
+    font-size: 30px
+    
+
+   }
+   .res-title span
+   {
+    color:  rgba(109, 225, 109, 0.978);
+
+   }
+   .ed-title
+   {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 20px;
+   }
+   .ed-sub
+   {
+    color: rgba(199, 197, 197, 0.904);
+    margin-top: 5px;
+    font-size: 15px;
+   }
+
+   .ed-sub span
+   {
+    color:  rgba(109, 225, 109, 0.978);
+   }
+   .ed-year
+   {
+    color: white;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+   }
+   .intro-four
+   {
+    
+  
+    border: 1px solid rgba(211, 211, 211, 0.463);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 100px;
+   
+   }
+      
+   .sp-card
+   {
+    margin-top: 30px;
+     width: 600px;
+     height: 170px;
+     border-radius: 20px;
+     border: 1px solid rgba(211, 211, 211, 0.538);
+     transition: .5s;
+     cursor: pointer;
+    }
+    .sp-card:hover
+    {
+      border: 1px solid   rgba(109, 225, 109, 0.978);
+
+    }
+   .ser-title
+   {
+    color: white;
+    margin-top: 20px;
+    font-size: 30px
+    
+
+   }
+   .ser-title span
+   {
+    color:  rgba(109, 225, 109, 0.978);
+
+   }
+   .intro-five
+   {
+     
+    border: 1px solid rgba(211, 211, 211, 0.463);
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-weight: 600;
+    font-size: 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-top: 100px;
+   }
+   .skill-title
+   {
+    color: white;
+    margin-top: 50px;
+    font-size: 30px
+    
+
+   }
+   .skill-title span
+   {
+    color:  rgba(109, 225, 109, 0.978);
+
+   }
+   .main-elipse
+   {
+    margin-top: 50px;
+    display: flex;
+    gap: 60px;
+   }
+   .elipse
+   {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    padding: 40px 60px;
+    border: 1px solid rgba(211, 211, 211, 0.453);
+    border-radius: 55px;
+    box-sizing: border-box;
+    transition: .5s;
+    cursor: pointer;
+   }
+   .elipse:hover
+   {
+    border: 1px solid rgba(109, 225, 109, 0.978) ;
+   }
+   .eli-logo
+   {
+    font-size: 50px;
+    color: yellow;
+   }
+   .eli-txt
+   {
+    font-size: 30px;
+    color:  rgba(109, 225, 109, 0.978);
+    font-weight: 500;
+
+   }
+
+
+
+   
